@@ -97,19 +97,19 @@ body {
 }
 
 #rock {
-  background: url(http://pixelartmaker.com/art/384d668556ef0fc.png) no-repeat center;
+  background: url(img/rock.png) no-repeat center;
   background-size: contain;
   background-color:cadetblue;
 }
 
 #paper {
-  background: url(http://pixelartmaker.com/art/80b778fe3e009c5.png) no-repeat center;
+  background: url(img/paper.png) no-repeat center;
   background-size: contain;
   background-color:cadetblue;
 }
 
 #scissors {
-  background: url(http://pixelartmaker.com/art/3aac856b665fd20.png) no-repeat center;
+  background: url(img/scissors.png) no-repeat center;
   background-size: contain;
   background-color:cadetblue;
 }
@@ -139,10 +139,6 @@ body {
   display:none;
   align-items: center;
   justify-content: center;
-}
-
-#final-winner {
-
 }
 
 

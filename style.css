@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: burlywood;
+}
+
+#game-container {
+  background-color: rgb(23, 27, 31);
+  height: 80%;
+  margin: auto;
+  width: 70%;
+  border-radius: 20px;
+  background-size: contain;
+  position: relative;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  font-family: 'Press Start 2P', cursive;
+  text-shadow: 0 0 .5rem black;
+}
+
+
+/* ---------------------------- */
+/* ------- START SCREEN ------- */
+/* ---------------------------- */
+
+
+#intro-screen {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+  z-index: 2;
+}
+
+#instructions {
+  height: 11rem;
+  bottom: 0;
+  width: 100%;
+  position: absolute;
+  background-color: gray;
+  border-radius: 25px; 
+}
+
+
+#startBtn {
+  position: relative;
+  top: 20%;
+  margin: 0 auto;
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  font-family: fantasy;
+  background-color: rgb(121, 83, 1);
+}
+
+
+
+
+/* ---------------------------- */
+/* ------- PICK CHOICES ------- */
+/* ---------------------------- */
+
+
+.game-screen {
+  display: flex;
+  justify-content: center;
+  flex: 12;
+  min-height: 40vh;
+  align-items: center;
+}
+
+.player-controls {
+  display: flex;
+}
+
+.btn {
+  border: 3px solid black;
+  border-radius: 50%;
+  margin: 1rem;
+  font-size: 1.5rem;
+  padding: 1rem .5rem;
+  transition: all .07s ease;
+  width: 7rem;
+  height: 7rem;
+  background: rgba(0,0,0,0.4);
+  text-shadow: 0 0 .5rem black;
+  background-size: contain;
+}
+
+#rock {
+  background: url(http://pixelartmaker.com/art/384d668556ef0fc.png) no-repeat center;
+  background-size: contain;
+  background-color:cadetblue;
+}
+
+#paper {
+  background: url(http://pixelartmaker.com/art/80b778fe3e009c5.png) no-repeat center;
+  background-size: contain;
+  background-color:cadetblue;
+}
+
+#scissors {
+  background: url(http://pixelartmaker.com/art/3aac856b665fd20.png) no-repeat center;
+  background-size: contain;
+  background-color:cadetblue;
+}
+
+
+/* ---------------------------- */
+/* ---- RESULTs ---- */
+/* ---------------------------- */
+
+#round-results {
+  border: 3px black solid;
+  border-radius: 25px;
+  bottom: 0;
+  height: 30%;
+  width: 100%;
+  background-color: rgb(23, 27, 31);
+  color: #ed970d;
+  position: absolute;
+}
+
+#final-results {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color:cornflowerblue;
+  z-index: 3;
+  display:none;
+  align-items: center;
+  justify-content: center;
+}
+
+#final-winner {
+
+}
+
+

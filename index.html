@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Rock Paper Scissors</title>
+	<link rel="stylesheet" href="style.css"/>
+	<link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+</head>
+
+<body>
+	<div id="game-container">
+		<div id="intro-screen">
+			<h1 id="game-title">Rock Paper Scissors</h1>
+			<div id="instructions">
+				<p>Mario's Princess is in Danger again. But since he's too old to save her again, he asked you to do it for
+					him.</p>
+				<p>And since the dragon also isn't in a good shape anymore, he prefers do decide her fate with the simple game
+					of Rock, Paper, Scissors.</p>
+				<p>You will be playing against the dragon which captured her. Whichever gets to 5 points will keep the princess.
+				</p>
+				<p>Click Start to start the game.</p>
+			</div>
+			<button id="startBtn" onclick="initialize()">Start</button>
+		</div>
+
+		<div id="final-results">
+			<p id='final-winner'>Who Won</p>
+		</div>
+
+		<div class="game-screen">
+			<div class="player-controls">
+				<div id="rock" class="btn rock"></div>
+				<div id="paper" class="btn paper"></div>
+				<div id="scissors" class="btn scissors"></div>
+			</div>
+		
+			<div id="round-results">
+				<p id='round-winner'></p>
+			</div>
+
+		</div>
+
+	</div>
+	<script type="text/javascript" src="rps.js"></script>
+</body>
+
+</html>
